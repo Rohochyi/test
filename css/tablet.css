@@ -1,0 +1,104 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .header-link {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--first-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: color 250ms var(--timing-function);
+  }
+
+  .header-link:hover,
+  .header-link:focus,
+  .header-tel:hover,
+  .header-tel:focus,
+  .header-email:hover,
+  .header-email:focus {
+    color: var(--brand-color);
+  }
+
+  .link.current::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--click-color);
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 4px;
+    padding-top: 24px;
+  }
+
+  .header-tel,
+  .header-email {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+
+    transition: color 250ms var(--timing-function);
+  }
+
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+  }
+
+  .feature-tile {
+    text-align: left;
+  }
+
+  .team-list {
+    column-gap: 24px;
+  }
+
+  .team {
+  }
+
+  .footer-container-logo {
+  }
+
+  .mob-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-container {
+    width: 552px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .subscrible {
+  }
+}

@@ -1,0 +1,128 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    gap: 40px;
+    padding-top: 0;
+  }
+
+  .header-tel,
+  .header-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+
+  .hero {
+    /* background: var(--first-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; */
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+  }
+
+  /* ---------------FEATURE--------------------- */
+
+  .feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .feature-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .feature-item {
+    gap: 24px;
+  }
+
+  .future-block {
+    display: flex;
+    background: var(--lith-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .future-icon {
+    /* align-items: center;
+  justify-content: center; */
+  }
+
+  .feature-tile {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .feature-text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  /* ---------------WORK--------------------- */
+
+  .work {
+    display: block;
+  }
+
+  .work-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* ---------------TEAM--------------------- */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* ---------------CUSTOMERS----------------- */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+
+    gap: 24px;
+  }
+
+  .footer-container {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .subscrible {
+    margin-left: auto;
+  }
+}

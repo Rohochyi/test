@@ -1,0 +1,119 @@
+/* @media screen and (max-width: 767px) {
+  .header-list,
+  .contact {
+    display: none;
+  }
+} */
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+
+  .header > .container {
+    display: flex;
+  }
+}
+
+.mob-menu.is-open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+
+}
+
+.menu-open {
+  width: 32px;
+  height: 22px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-open-icon {
+  stroke: var(--first-color);
+}
+
+.mob-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 1;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background-color: var(--second-color);
+  overflow: auto;
+}
+.menu-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  top: 24px;
+  right: 24px;
+  background: var(--acent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms var(--timing-function);
+}
+.menu-close-icon {
+  width: 8px;
+  height: 8px;
+  background: var(--acent-color);
+  transition: background-color 250ms var(--timing-function);
+}
+
+.mob-list {
+}
+
+.mob-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mob-link {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--first-color);
+}
+.current {
+  color: var(--brand-color);
+}
+.mob-menu-contact {
+}
+.mob-menu-tel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 40px;
+  color: var(--brand-color);
+}
+
+.mob-menu-email {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  color: #434455;
+}
+
+.mob-menu-soc {
+  display: flex;
+  justify-content: space-between;
+}
+/* .soc-item {
+}
+.soc-link {
+}
+.soc-icon {
+} */
